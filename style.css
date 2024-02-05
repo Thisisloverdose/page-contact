@@ -1,0 +1,151 @@
+.background-blue {
+    width: 100%;
+    height: 200%;
+    object-fit: cover;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.logo img {
+    width: 120px;
+    height: 110px;
+}
+
+.bakground-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.container { 
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: aliceblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 22px;
+}
+
+h1 {
+    text-align: center;
+    color: #468D80; 
+}
+
+form {
+    margin-top: 20px;
+}
+
+label { 
+    display: block;
+    margin-bottom: 8px;
+    color: rgb(0, 0, 0);
+    border-radius: 22px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border-radius: 22px;
+}
+
+button {
+    background-color: aqua;
+    color: aliceblue;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: brown;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 20px; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%;
+    box-sizing: border-box;
+    background-origin: padding-box;
+    background-color: #35605A;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin-right: 20px; 
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #f8f7f7; 
+}
+
+.navbar .logo img {
+    width: 120px;
+    height: 110px;
+}
+
+body {
+    margin-top: 150px;
+}
+
+footer {
+    background-color: #35605A; 
+    color: #fff;
+    padding: 20px 0; 
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text p {
+    margin: 0;
+}
+
+.footer-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.footer-links li {
+    margin-right: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-social a {
+    margin-right: 10px;
+}
+
+.footer-social img {
+    width: 30px;
+}
+
+
+.barnav a {
+    transition: color 0.3s; 
+}
